@@ -1,0 +1,49 @@
+.cta {
+    background-image: url(/img/ctct-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.712);
+    background-blend-mode: lighten;
+    height: 600px;
+    padding-top: 1px;
+    
+    .cta-tel {
+        text-align: center;
+        color: rgb(192, 42, 4);
+        font-size: 24px;
+        font-weight: bold;
+        @include overTab{
+            font-size: 30px;
+        }
+        p{
+            background-color: #fff;
+            border-radius: 5px;
+            margin-top: 80px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: auto;
+            padding-right: 10px;
+            padding-left: 10px;
+            @include overTab{
+                padding-right: 50px;
+                padding-left: 50px;
+            }
+        }
+    }
+
+    .cta-btn {
+        text-align: center;
+        margin-top: 100px;
+        a{
+            background-color: cl(ctbt);
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 15px;
+            padding: 10px;
+            @include overTab{
+                padding: 30px;
+                font-size: 30px;
+            }
+        }
+    }
+}

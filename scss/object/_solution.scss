@@ -1,0 +1,45 @@
+.solution {
+    background-image: url(/img/pit-img.jpg);
+    background-color: rgba(255, 255, 255, 0.712);
+    background-blend-mode: lighten;
+    padding-bottom: 80px;
+    .solution-contents {
+        @include overTab{
+            display: flex;
+        }
+    }
+    
+    .solution-item {
+        background-color: rgba(124, 253, 85, 0.747);
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+        @include overTab{
+            width: 33.3%;
+        }
+        img{
+        }
+    }
+    
+    .solution-item-text {
+        color: cl(black);
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .cta-btn {
+        text-align: center;
+        margin-top: 100px;
+        a{
+            background-color: cl(ctbt);
+            font-weight: bold;
+            border-radius: 15px;
+            padding: 10px;
+            @include overTab{
+                font-size: 20px;
+                padding: 30px;
+            }
+        }
+    }
+}

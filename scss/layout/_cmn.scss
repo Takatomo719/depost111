@@ -1,0 +1,18 @@
+.cmn-title {
+    h1{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        @include overTab{
+            font-size: 50px;
+        }
+
+    }
+}
+
+.cmn-subtitle {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}

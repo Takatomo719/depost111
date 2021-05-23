@@ -1,0 +1,18 @@
+.top {
+    .top-image {
+        background-image: url(../img/top-responsive.png);
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        margin-top: 50px;
+        padding-top: 150%;
+        @include overTab{
+            background-image: url(../img/depost-top-img.png);
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            padding-top: 50%;
+        }
+    }
+}

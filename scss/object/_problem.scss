@@ -1,0 +1,33 @@
+.problem {
+    margin-bottom: 50px;
+
+    .problem-contents {
+
+        @include overTab{
+            display: flex;
+        }
+    }
+
+    .problem-img {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;
+        @include overTab{
+            width: 50%;
+        }
+    }
+
+    .probrem-exp {
+        @include overTab{
+            width: 40%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        img{
+            border-radius: 15px;
+        }
+    }
+
+    
+}
